@@ -3,9 +3,9 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Virtual environment
+# Virtual environments
 venv/
 .env
 
-# OS
+# OS files
 .DS_Store
