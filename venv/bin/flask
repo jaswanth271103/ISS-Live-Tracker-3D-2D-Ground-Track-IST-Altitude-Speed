@@ -1,7 +1,6 @@
-#!/home/jaswanth/real_time_iss_tracking/venv/bin/python3
+#!/home/jaswanth/ISS-Live-Tracker-3D-2D-Ground-Track-IST-Altitude-Speed-/venv/bin/python3
 import sys
 from flask.cli import main
 if __name__ == '__main__':
-    if sys.argv[0].endswith('.exe'):
-        sys.argv[0] = sys.argv[0][:-4]
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
     sys.exit(main())
